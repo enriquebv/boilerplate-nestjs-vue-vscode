@@ -1,3 +1,5 @@
+> Work in progress, don't judge me.
+
 # What
 
 Full-stack boilerplate to create full-stack applications using NestJS in the server, Vue in the front-end, and TypeScript as language. Includes config files to help to use it the repo in VSCode (higly recommended).
