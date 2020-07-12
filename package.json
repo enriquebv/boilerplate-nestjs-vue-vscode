@@ -3,7 +3,10 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "scripts": "node -r esm scripts.js"
+    "scripts": "node -r esm scripts.js",
+    "back:dev": "cd packages/back-end && yarn start:dev",
+    "front:dev": "cd packages/front-end && yarn serve",
+    "prod": "cd packages/front-end && yarn build && cd ../back-end && yarn build && yarn start:prod"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
